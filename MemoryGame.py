@@ -1,7 +1,9 @@
 import tkinter as tk
 from tkinter import messagebox
 import random
-
+#
+# Author: S1145566, James Chen
+#
 # CardButton 是「子類別」：它繼承 tkinter 內建的 Button，
 # 代表我們可以重用[Button]原本的功能，再額外加入記憶卡片需要的屬性與行為。
 class CardButton(tk.Button):
